@@ -1,0 +1,8 @@
+<div *ngIf="showPopup" class="popup">
+    <div class="popup-content">
+      <h2>You are away</h2>
+      <p>You have been inactive for {{ formattedDuration }}.</p>
+      <button (click)="confirmActive()">Yes, I am in</button>
+    </div>
+  </div>
+  
